@@ -1,0 +1,8 @@
+@import "_mixins/font-face";
+
+@include font-face('Neue', '../fonts/HelveticaNeueCyr-UltraLight', 200);
+@include font-face('Neue', '../fonts/HelveticaNeueCyr-Light', 300);
+@include font-face('Neue', '../fonts/HelveticaNeueCyr-Roman', 400, normal);
+@include font-face('Neue', '../fonts/HelveticaNeueCyr-Italic', 400, italic);
+@include font-face('Neue', '../fonts/HelveticaNeueCyr-Bold', 700);
+@include font-face('Neue', '../fonts/HelveticaNeueCyr-Black', 900);
